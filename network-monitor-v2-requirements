@@ -1,0 +1,30 @@
+# Network Monitor v2 Requirements
+
+To run Network Monitor v2, install the following Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## requirements.txt
+
+```txt
+Flask
+requests
+scapy
+netifaces
+```
+
+## Python Version
+
+Python 3.10+
+
+## Run
+
+```bash
+python3 run_soc.py
+```
+
+Note:
+
+Network scanning requires administrator/root privileges because Scapy performs ARP scanning on the network.
